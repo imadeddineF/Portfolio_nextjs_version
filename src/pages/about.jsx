@@ -34,7 +34,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>3imad | About Page</title>
+        <title>3imad | About</title>
         <meta name="description" content="imad eddine fillali about page" />
       </Head>
 
@@ -80,7 +80,7 @@ const About = () => {
               <Image
                 src={profilePic}
                 alt="imad eddine fillali 3imad"
-                className="w-full h-auto rounded-2xl hover:sepia cursor-pointer ease-linear duration-300 hover:scale-110 "
+                className="w-full h-auto duration-300 ease-linear cursor-pointer rounded-2xl hover:sepia hover:scale-110 "
                 priority
                 sizes="(max-width: 768px) 100vw,
                         (max-width: 1200px) 50vw,

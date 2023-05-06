@@ -6,8 +6,11 @@ const Certifications = () => {
   return (
     <>
       <Head>
-        <title>3imad | About Page</title>
-        <meta name="description" content="imad eddine fillali about page" />
+        <title>3imad | Certifications</title>
+        <meta
+          name="description"
+          content="imad eddine fillali certifications page"
+        />
       </Head>
 
       {/* The page transition */}

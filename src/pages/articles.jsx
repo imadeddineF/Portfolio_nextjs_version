@@ -6,7 +6,7 @@ const Articles = () => {
   return (
     <>
       <Head>
-        <title>3imad | Articles Page</title>
+        <title>3imad | Articles</title>
         <meta name="description" content="imad eddine fillali articles page" />
       </Head>
 

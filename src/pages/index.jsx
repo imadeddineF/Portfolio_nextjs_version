@@ -75,8 +75,7 @@ export default function Home() {
                 </Link>
                 {/* Contact */}
                 <Link
-                  href="mailto:imadeddinefillalipro@gmail.com"
-                  target={"_blank"}
+                  href="/contact"
                   className="ml-8 text-lg font-medium underline capitalize dark:text-light text-dark md:text-base">
                   Contact
                 </Link>

@@ -128,7 +128,7 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <title>3imad | Projects Page</title>
+        <title>3imad | Projects</title>
         <meta name="description" content="imad eddine fillali projects page" />
       </Head>
 
