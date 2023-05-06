@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Portfolio_nextjs_version
 This is my  updated B&amp;W portfolio
 =======
@@ -48,3 +49,7 @@ on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_me
 
 
 >>>>>>> ca00a6a (add all the files v1.0)
+=======
+# portfolio_nextjs_version# 
+# My updated B&amp;W portfolio nextjs version
+>>>>>>> 61f893e4b6463f173203b5a4abf497363e7fd11c
