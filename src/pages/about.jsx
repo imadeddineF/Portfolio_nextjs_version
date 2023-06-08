@@ -44,7 +44,7 @@ const About = () => {
       <main className="flex flex-col items-center justify-center w-full dark:text-light ">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Who is 3imad!"
             className="mb-16 lg:!text-7xl md:!text-6xl sm:!text-5xl xs:!text-3xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -53,24 +53,20 @@ const About = () => {
               <h2 className="mb-4 text-xl font-bold uppercase dark:text-light text-dark/75">
                 About Me
               </h2>
-              <p className="font-medium">
-                - Hi, I am CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients visions to life.
+              <p className="font-medium leading-7">
+                - Hello! I am 3imad, a talented web developer specializing in
+                front-end development. My passion lies in crafting captivating
+                and interactive digital experiences that are not only visually
+                stunning but also highly functional and responsive. With over a
+                year of experience in the field, I am constantly seeking fresh
+                and innovative approaches to transform my clients designs into
               </p>
-              <p className="my-4 font-medium">
-                - I believe that design is about more than just making things
-                look pretty, it is about solving problems and creating
-                intuitive, enjoyable experiences for users.
-              </p>
-              <p className="font-medium">
-                - Whether I am working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+
+              <p className="mt-4 font-medium leading-7">
+                - Whenever I work on a new website, I bring my unwavering
+                commitment to transforming the design into a pixel-perfect
+                masterpiece. I eagerly anticipate the opportunity to utilize my
+                skills and passion in your next project.
               </p>
             </div>
 
@@ -93,7 +89,7 @@ const About = () => {
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
                   {" "}
-                  <AnimatedNumbres value={50} />+
+                  <AnimatedNumbres value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">
                   Satsfied clients
@@ -102,7 +98,7 @@ const About = () => {
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
                   {" "}
-                  <AnimatedNumbres value={30} />+
+                  <AnimatedNumbres value={5} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">
                   Projects completed
@@ -111,7 +107,7 @@ const About = () => {
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
                   {" "}
-                  <AnimatedNumbres value={2} />+
+                  <AnimatedNumbres value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">
                   years of experience
