@@ -46,7 +46,7 @@ const Contact = () => {
           (result) => {
             alert('Message Sent, I will get back to you as soon as possible !');
             setContactData({
-              fullName: '',
+              name: '',
               email: '',
               subject: '',
               message: '',
