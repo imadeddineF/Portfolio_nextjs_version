@@ -1,14 +1,14 @@
-import Layout from "@/components/layout";
-import Head from "next/head";
-import Image from "next/image";
-import profilePic from "../../public/images/profile/artMe.png";
-import AnimatedText from "@/components/animatedText";
-import Link from "next/link";
-import { LinkArrow } from "@/components/icons";
-import HireMe from "@/components/hireMe";
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import TypeWriterText from "@/components/typeWriterText";
-import TransitionPageEffect from "@/components/transitionPageEffect";
+import Layout from '@/components/layout';
+import Head from 'next/head';
+import Image from 'next/image';
+import profilePic from '../../public/images/profile/artMe.png';
+import AnimatedText from '@/components/animatedText';
+import Link from 'next/link';
+import { LinkArrow } from '@/components/icons';
+import HireMe from '@/components/hireMe';
+import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
+import TypeWriterText from '@/components/typeWriterText';
+import TransitionPageEffect from '@/components/transitionPageEffect';
 
 export default function Home() {
   return (
@@ -67,16 +67,18 @@ export default function Home() {
                 {/* Resume */}
                 <Link
                   href="/dummy.pdf"
-                  target={"_blank"}
+                  target={'_blank'}
                   className="flex items-center dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light bg-dark text-light p-2.5 px-6 transition-all rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
-                  download={true}>
+                  download={true}
+                >
                   Resume
-                  <LinkArrow className={"w-6 ml-1"} />
+                  <LinkArrow className={'w-6 ml-1'} />
                 </Link>
                 {/* Contact */}
                 <Link
                   href="/contact"
-                  className="ml-8 text-lg font-medium underline capitalize dark:text-light text-dark md:text-base">
+                  className="ml-8 text-lg font-medium underline capitalize dark:text-light text-dark md:text-base"
+                >
                   Contact
                 </Link>
               </div>
