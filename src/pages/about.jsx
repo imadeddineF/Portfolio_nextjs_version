@@ -60,6 +60,7 @@ const About = () => {
                 stunning but also highly functional and responsive. With over a
                 year of experience in the field, I am constantly seeking fresh
                 and innovative approaches to transform my clients designs into
+                reality.
               </p>
 
               <p className="mt-4 font-medium leading-7">
@@ -76,7 +77,7 @@ const About = () => {
               <Image
                 src={profilePic}
                 alt="imad eddine fillali 3imad"
-                className="w-full h-auto duration-300 ease-linear cursor-pointer rounded-2xl hover:sepia hover:scale-110 "
+                className="w-full h-auto duration-300 ease-linear cursor-pointer rounded-2xl hover:sepia hover:scale-105 "
                 priority
                 sizes="(max-width: 768px) 100vw,
                         (max-width: 1200px) 50vw,

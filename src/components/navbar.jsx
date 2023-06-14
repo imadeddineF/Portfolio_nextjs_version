@@ -2,13 +2,7 @@ import { React, useState } from 'react';
 import Link from 'next/link';
 import Logo from './logo';
 import { useRouter } from 'next/router';
-import {
-  GithubIcon,
-  LinkedInIcon,
-  MoonIcon,
-  SunIcon,
-  TwitterIcon,
-} from './icons';
+import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon } from './icons';
 import { motion } from 'framer-motion';
 import UseThemeSwitcher from './hooks/useThemeSwitcher';
 
@@ -126,15 +120,6 @@ const Navbar = () => {
           >
             <GithubIcon />
           </motion.a>
-          <motion.a
-            href="https//twitter.com"
-            target={'_blank'}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3"
-          >
-            <TwitterIcon />
-          </motion.a>
 
           {/* Add Dark Theme Button Switcher */}
           <button
@@ -205,15 +190,6 @@ const Navbar = () => {
               className="mx-3 rounded-full w-7 bg-light dark:bg-dark sm:mx-1"
             >
               <GithubIcon />
-            </motion.a>
-            <motion.a
-              href="https//twitter.com"
-              target={'_blank'}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1"
-            >
-              <TwitterIcon />
             </motion.a>
 
             {/* Add Dark Theme Button Switcher */}
