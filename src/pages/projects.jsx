@@ -15,6 +15,7 @@ import specialBitProjectPic from '../../public/images/projects/specialBit.bmp';
 import typingSpeedProjectPic from '../../public/images/projects/typingSpeed.bmp';
 import oldPortfolioProjectPic from '../../public/images/projects/oldPortfolio.bmp';
 import metaversusProject from '../../public/images/projects/metaversus.bmp';
+import todolistProject from '../../public/images/projects/todolist.bmp';
 
 // The project component
 const SProject = ({ title, technologies, summary, img, link, github }) => {
@@ -165,6 +166,19 @@ const Projects = () => {
             {/* Project Five */}
             <div className="col-span-6 transition-all duration-300 sm:col-span-12 hover:-translate-y-3">
               <SProject
+                title="Todolist"
+                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                  local currency."
+                img={todolistProject}
+                link="https://merry-cheesecake-fa8880.netlify.app"
+                technologies="(React JS,Tailwind css)"
+                github="https://github.com/imadeddineF/React_TodoList"
+              />
+            </div>
+            {/* Project Six */}
+            <div className="col-span-6 transition-all duration-300 sm:col-span-12 hover:-translate-y-3">
+              <SProject
                 title="Leon"
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                   It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
@@ -175,7 +189,7 @@ const Projects = () => {
                 github="https://github.com/imadeddineF/Leon"
               />
             </div>
-            {/* Project Six */}
+            {/* Project Seven */}
             <div className="col-span-6 transition-all duration-300 sm:col-span-12 hover:-translate-y-3">
               <SProject
                 title="SpecialBit"
