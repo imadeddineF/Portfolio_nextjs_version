@@ -66,10 +66,10 @@ export default function Home() {
               <div className="flex items-center self-start mt-2 lg:self-center md:mt-6 sm:mt-7">
                 {/* Resume */}
                 <Link
-                  href="/dummy.pdf"
-                  target={'_blank'}
+                  href="/imad.pdf"
+                  target="_blank"
                   className="flex items-center dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light bg-dark text-light p-2.5 px-6 transition-all rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
-                  download={true}
+                  download={false}
                 >
                   Resume
                   <LinkArrow className={'w-6 ml-1'} />
