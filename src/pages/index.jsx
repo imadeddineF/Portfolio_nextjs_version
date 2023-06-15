@@ -32,7 +32,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="Imad eddine fillali"
-                className="w-full h-auto duration-300 lg:hidden md:inline-block md:w-full"
+                className="w-full h-auto duration-300 scale-125 lg:hidden md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw,
                         (max-width: 1200px) 50vw,
