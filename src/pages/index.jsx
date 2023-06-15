@@ -1,7 +1,7 @@
 import Layout from '@/components/layout';
 import Head from 'next/head';
 import Image from 'next/image';
-import profilePic from '../../public/images/profile/artMe.png';
+import profilePic from '../../public/images/profile/memememe.png';
 import AnimatedText from '@/components/animatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/icons';
@@ -32,7 +32,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="Imad eddine fillali"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                className="w-full h-auto duration-300 lg:hidden md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw,
                         (max-width: 1200px) 50vw,
