@@ -2,7 +2,7 @@ import { React, useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./lilcon";
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({ position, company, companyLink, time, address, work, technologies }) => {
   const ref = useRef(null);
   return (
     <li
@@ -26,6 +26,11 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
           {time} | {address}
         </span>
         <p className="w-full font-medium md:text-sm">{work}</p>
+
+        <p className="w-full mt-2 font-medium text-red-200 md:text-sm">
+          <span className="w-full font-medium text-blue-400 md:text-sm">Technologies : </span>
+          {technologies}
+        </p>
       </motion.div>
     </li>
   );
@@ -53,13 +58,14 @@ const Experience = () => {
         <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-2">
           <Details
             position="Front-end Web Developer"
-            companyLink="www.google.com"
-            company=" /"
-            time="sometime-sometime"
-            address="somewhere.."
-            work="Worked on a team responsible for developing new features for -----, 
-              including improving the SEO results and developing 
-              new tools for ------ and --------."
+            companyLink="https://www.atlas-marketspace.com"
+            company="Atlas Marketplace"
+            time="Juin 23 - August 23"
+            address="Algiers, Algeria"
+            work="Worked on a team responsible for developing the entire Dashboards
+              and the main website (I built the main website all by myself) of the project including improving the SEO results 
+              and developing new tools for the main dashboard and the super admin dashboard."
+            technologies="Next Js, React Js, Typescript, Redux, Material UI, Tailwind, and multiple packages.."
           />
         </ul>
       </div>

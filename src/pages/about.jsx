@@ -90,7 +90,7 @@ const About = () => {
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
                   {' '}
-                  <AnimatedNumbres value={2} />+
+                  <AnimatedNumbres value={7} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">
                   Satsfied clients
@@ -108,7 +108,7 @@ const About = () => {
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
                   {' '}
-                  <AnimatedNumbres value={1} />+
+                  <AnimatedNumbres value={2} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">
                   years of experience
