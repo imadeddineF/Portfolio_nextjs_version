@@ -60,7 +60,7 @@ const Experience = () => {
             position="Front-end Web Developer"
             companyLink="https://www.atlas-marketspace.com"
             company="Atlas Marketplace"
-            time="Juin 23 - August 23"
+            time="Juin 23 - September 23"
             address="Algiers, Algeria"
             work="Worked on a team responsible for developing the entire Dashboards
               and the main website (I built the main website all by myself) of the project including improving the SEO results 
