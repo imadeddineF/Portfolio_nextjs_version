@@ -13,7 +13,8 @@ const Skill = ({ name, x, y }) => {
       whileHover={{ scale: 1.05 }}
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y, transition: { duration: 1.5 } }}
-      viewport={{ once: true }}>
+      viewport={{ once: true }}
+    >
       {name}
     </motion.div>
   );
@@ -31,10 +32,12 @@ const Skills = () => {
                   md:h-[70vh] sm:h-[60vh] xs:h-[50vh] 
                   lg:bg-circularLightLg lg:dark:bg-circularDarkLg
                   md:bg-circularLightMd md:dark:bg-circularDarkMd
-                  sm:bg-circularLightSm sm:dark:bg-circularDarkSm">
+                  sm:bg-circularLightSm sm:dark:bg-circularDarkSm"
+      >
         <motion.div
           className="flex items-center justify-center p-8 font-extrabold rounded-full cursor-pointer dark:text-dark dark:bg-light bg-dark text-light shadow-dark lg:p-6 md:p-4 xs:text-xs xs:p-2"
-          whileHover={{ scale: 1.05 }}>
+          whileHover={{ scale: 1.05 }}
+        >
           WEB
         </motion.div>
         <Skill name="CSS" x="-8vw" y="-11vw" />
@@ -49,6 +52,8 @@ const Skills = () => {
         <Skill name="Material UI" x="17vw" y="-21vw" />
         <Skill name="Redux" x="0vw" y="20vw" />
         <Skill name="React Native" x="-15vw" y="14vw" />
+        <Skill name="Node JS" x="-16vw" y="2vw" />
+        <Skill name="Express JS" x="16vw" y="-4vw" />
       </div>
     </>
   );

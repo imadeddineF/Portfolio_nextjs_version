@@ -1,14 +1,14 @@
-import React, { useRef, useEffect } from 'react';
-import Head from 'next/head';
-import AnimatedText from '@/components/animatedText';
-import Layout from '@/components/layout';
-import Image from 'next/image';
-import profilePic from '../../public/images/profile/me.jpg';
-import { useInView, useMotionValue, useSpring } from 'framer-motion';
-import Skills from '@/components/skills';
-import Experience from '@/components/experience';
-import Education from '@/components/education';
-import TransitionPageEffect from '@/components/transitionPageEffect';
+import React, { useRef, useEffect } from "react";
+import Head from "next/head";
+import AnimatedText from "@/components/animatedText";
+import Layout from "@/components/layout";
+import Image from "next/image";
+import profilePic from "../../public/images/profile/me.jpg";
+import { useInView, useMotionValue, useSpring } from "framer-motion";
+import Skills from "@/components/skills";
+import Experience from "@/components/experience";
+import Education from "@/components/education";
+import TransitionPageEffect from "@/components/transitionPageEffect";
 
 const AnimatedNumbres = ({ value }) => {
   const ref = useRef(null);
@@ -21,7 +21,7 @@ const AnimatedNumbres = ({ value }) => {
     }
   }, [isInView, value, motionValue]);
   useEffect(() => {
-    springValue.on('change', (latest) => {
+    springValue.on("change", (latest) => {
       if (ref.current && latest.toFixed(0) <= value) {
         ref.current.textContent = latest.toFixed(0);
       }
@@ -89,16 +89,16 @@ const About = () => {
             <div className="flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
-                  {' '}
+                  {" "}
                   <AnimatedNumbres value={7} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">
-                  Satsfied clients
+                  Satisfied clients
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
-                  {' '}
+                  {" "}
                   <AnimatedNumbres value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">
@@ -107,7 +107,7 @@ const About = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:gap-4 md:gap-2 sm:gap-1">
                 <span className="inline-block font-bold text-7xl xl:!mx-auto lg:!text-5xl md:!text-4xl sm:text-3xl xs:text-2xl">
-                  {' '}
+                  {" "}
                   <AnimatedNumbres value={2} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/50 text-dark/75 xl:text-center lg:text-lg md:text-md sm:text-base xs:text-sm">

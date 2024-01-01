@@ -3,7 +3,11 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const TypeWriterText = ({ name, className = "" }) => {
   const [text, count] = useTypewriter({
-    words: ["Hi! This is 3imad />", "Frontend Web Developer />", "Frontend Mobile Developer />"],
+    words: [
+      "Hi! This is 3imad />",
+      "Frontend Web Developer />",
+      "Full-stack Web Developer />",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
